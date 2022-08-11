@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body{
+    font-family: 'poppins';
+    background-color: black;
+    color: #fff;
+    line-height: 1.8;
+}
+#container{
+    margin-top: 10%;
+    text-align: center;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#movie{
+    text-align: center;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#movieOptions{
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+}
+#options{
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#options div{
+    margin: 15px;
+}
+#screendiv{
+    text-align: center;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#screen{
+    width: 230px;
+    height: 70px;
+    border-top: 40px solid whitesmoke;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+.na{
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    background-color: gray !important;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    align-self: center;
+}
+.selectedSeat{
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    background-color: green;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.occupiedSeat{
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    background-color: red;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.selected{
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    background-color: green !important;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.occupied{
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    background-color: red !important;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.row{
+    text-align: center;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.seat{
+    margin-top: 5px;
+    margin-right:5px;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    background-color: gray;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%; 
+}
+.seat:nth-child(2){
+    margin-right:20px;
+}
+.seat:nth-last-child(2){
+    margin-left:20px;
+}
+#ticketText{
+    text-align: center;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    color: goldenrod;
+    padding: 5px;
+}
